@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangam Shetty - IT Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">⚜️ＳＨΞＴＴＹ</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h1 class="section-title glitch">I'm Sangam Shetty.</h1>
+                        <p class="subtitle">BCA Student | Problem Solver</p>
+                        <p class="description">
+                            A passionate and driven third-year BCA student with a deep-seated love for all things tech. My journey into the world of IT began with a curiosity for how things work, evolving into a hands-on obsession with crafting elegant solutions. I specialize in the **MERN stack**, proficient in **Data Structures and Algorithms**, and always eager to push the boundaries of what's possible. Let's connect and build the future of tech, one line of code at a time.
+                        </p>
+                        <div class="social-links">
+                            <a href="https://github.com/shettysangam" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/sangam-shetty-42842b2a3/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="sangam0202@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="education" class="section education-section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon"></div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Computer Applications (BCA)</h3>
+                            <p class="institution">SVGU, Ahmedabad. </p>
+                            <p class="details">I'm in 3rd third-year(BCA).</p>
+                            <p class="details"></p>
+                            <p class="description">Key Modules: Object-Oriented Programming (C++, Java), Data Structures, DBMS, Web Technologies</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon"></div>
+                        <div class="timeline-content">
+                            <h3>Higher Secondary Education (12th Grade)</h3>
+                            <p class="institution">Modern English Medium School, Bobby Suraj</p>
+                            <p class="details">Completed: 2022</p>
+                            <p class="details">Percentage: 92% </p>
+                            <p class="description">I am a student of commerce in 12th</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="section achievements-section">
+            <div class="container">
+                <h2 class="section-title">Projects & Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="card-header"><i class="fas fa-home"></i><h3>๑ 𝕐𝕦𝕞𝕞𝕚𝕗𝕪 ๑</h3></div>
+                        <p>Yummify is your one-stop destination to turn every bite into a delightful experience. Whether it’s discovering new recipes, exploring tasty treats, or finding quick and healthy options, Yummify makes food exciting, flavorful, and fun. From traditional classics to modern innovations, we help you savor every moment with mouthwatering simplicity.</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="card-header"><i class="fas fa-shield-alt"></i><h3>✨Trackdemy✨</h3></div>
+                        <p>A smarter way to learn, grow, and succeed.
+
+📚 Track Your Progress – Stay on top of your learning journey with powerful tracking tools.
+🎯 Personalized Insights – Get tailored guidance that keeps you motivated and focused.
+⚡ Easy-to-Use Tools – Manage your education seamlessly, anytime, anywhere.
+Whether you’re building new skills, preparing for exams, or monitoring training programs,
+Trackdemy keeps you on the right path to success. 🚀</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Initiate Contact</h2>
+                <p class="contact-subtitle"></p>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                    <div id="form-status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shetty Sangam | Coded with Passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
